@@ -354,7 +354,7 @@ textarea {
   border-left: 0;
   padding-left: 3px;
   font-size: 17px;
-  color: white;
+  color: white !important;
 }
 
 .form-group-cutom {
@@ -2894,12 +2894,16 @@ APPOINTMENT
 .appointment-form_wrap textarea {
   border-radius: 0;
   border: 2px solid #7898dd;
-  color: white;
+  color: white !important;
 }
 .appointment-form_wrap textarea:focus {
   border-color: #5bc198;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.appointment-form-option{
+  background-color: red;
 }
 
 .whychoose-wrap {
@@ -2934,6 +2938,7 @@ APPOINTMENT
   font-size: 13px;
   opacity: 0.9;
 }
+
 
 /*------------------------------------------------------------------
 BLOG
@@ -4217,4 +4222,19 @@ SERVICE DETAIL
 .dental-features_list li h6 {
   font-size: 13px;
   margin: 0;
+}
+
+
+/* ====================================================================================================== */
+
+.banner-specialists{
+  height: 54vh;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5a96b02925bf021eda1e8e98/1623404076511-4NYBHN9VQ6CCLJHCFAS9/MS-1.png?format=2500w');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.medical-specialists-img{
+  height: 150px;
 }
